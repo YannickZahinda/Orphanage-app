@@ -7,22 +7,20 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <main>
+      <main className="pt-20">
         <Outlet />
       </main>
     </div>
   )
 }; 
 
-const routerWithLayout = {
-  // {
-  //   path: '/',
-  //   element: <Layout />,
-  //   children: router.routes[0].children,
-  // }
-  ...router,
-  element: <Layout />,
-}
+const routerWithLayout = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: router.routes[0].children,
+  }
+]);
 
 function App() {
   return < RouterProvider router={routerWithLayout} />
