@@ -37,7 +37,7 @@ const Header = () => {
                </a>
                
                {/* Get Started (Donate) link */}
-               <Link to="/donate" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+               <Link to="/donate" className="bg-[#8F36FF] text-white px-4 py-2 rounded-md hover:bg-blue-700">
                  Get Started
                </Link>
             </div>

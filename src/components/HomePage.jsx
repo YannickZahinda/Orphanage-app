@@ -1,11 +1,15 @@
-import Header from "./layout/Header";
+import AreaOne from "./AreaOne";
+import AreaThree from "./AreaThree";
+import AreaTwo from "./AreaTwo";
 
 const HomePage = () => {
     return (
-        <div>
-            <Header />
+        <div className="w-full">
+            < AreaOne />
+            <AreaTwo />
+            <AreaThree />
             <main>
-                Welcome to My Child and Me 
+                
             </main>
         </div>
     )

@@ -5,9 +5,9 @@ import router from './routes';
 
 const Layout = () => {
   return (
-    <div>
+    <div className="w-full">
       <Header />
-      <main className="pt-20">
+      <main className="w-full">
         <Outlet />
       </main>
     </div>
@@ -20,7 +20,7 @@ const routerWithLayout = createBrowserRouter([
     element: <Layout />,
     children: router.routes[0].children,
   }
-]);
+]); 
 
 function App() {
   return < RouterProvider router={routerWithLayout} />
