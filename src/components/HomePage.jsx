@@ -1,6 +1,7 @@
 import AreaOne from "./AreaOne";
 import AreaThree from "./AreaThree";
 import AreaTwo from "./AreaTwo";
+import Impact from "./Impact";
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
             < AreaOne />
             <AreaTwo />
             <AreaThree />
+            <Impact />
             <main>
                 
             </main>

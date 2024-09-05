@@ -10,7 +10,9 @@ export default {
         'primary':'#3490dc',
         'secondary': '#ffed4a',
         'danger': '#e3342f',
-        'violet': '#8F36FF'
+        'violet': '#8F36FF',
+        'rose' : '#B61F24',
+        'orange': '#FF7900'
       },
       fontFamily: {
         'sans': ['Roboto', 'Arial', 'sans-serif'],
