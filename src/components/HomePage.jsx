@@ -1,6 +1,7 @@
 import AreaOne from "./AreaOne";
 import AreaThree from "./AreaThree";
 import AreaTwo from "./AreaTwo";
+import Facts from "./Facts";
 import Impact from "./Impact";
 
 const HomePage = () => {
@@ -8,8 +9,9 @@ const HomePage = () => {
         <div className="w-full">
             < AreaOne />
             <AreaTwo />
-            <AreaThree />
             <Impact />
+            <AreaThree />
+            <Facts />
             <main>
                 
             </main>

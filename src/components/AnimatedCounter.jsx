@@ -1,7 +1,7 @@
 import React from 'react'
 import useCountAnimation from '../hooks/useCountAnimation'
 
-const AnimatedCounter = ({start, end, duration = 2000, label}) => {
+const AnimatedCounter = ({start, end, duration = 7000, label}) => {
   const count = useCountAnimation(start, end, duration);
 
   return (
